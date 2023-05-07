@@ -1,0 +1,245 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg, rgb(255, 251, 0) 50%, rgb(119, 0, 255) 50%);
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/*Header*/
+header{
+    position: fixed;
+    top: -60px;
+    width: 100%;
+    transition: top 0.5s;
+    background-color: rgb(119, 0, 255);
+    margin-top: -16px;
+    height: 75px;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li{
+    padding: 10px;
+    margin-right: 30px;
+    background-color: rgb(255, 251, 0);
+    margin-top: 7px;
+    border-radius: 15px;
+}
+
+header ul li:hover{
+    cursor: pointer;
+    background-color: rgb(207, 204, 0);
+    animation-name: hoverBunito;
+    animation-duration: 0.2s;
+}
+
+@keyframes hoverBunito{
+    from {background-color: rgb(255, 251, 0);}
+    to {background-color: rgb(207, 204, 0);}
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(119, 0, 255);
+    font-size: 20px;
+}
+
+/*Container*/
+#container{
+    margin: 0 auto;
+    width: 800px;
+
+    background-color: rgb(119, 0, 255) ;
+}
+
+/*O bem vindo*/
+#entrada{
+    margin: 0 auto;
+    background: linear-gradient(90deg, rgb(255, 251, 0) 50%, rgb(119, 0, 255) 50%);
+}
+
+#entrada .h1-1{
+    margin-right: 204px;
+    right: 104px;
+    color: rgb(119, 0, 255);
+}
+
+#entrada .h1-2{
+    margin-left: 265px;
+    margin-top: -50px;
+    color: rgb(255, 251, 0);
+}
+
+#entrada .h1-3{
+    margin-top: -20px;
+    background: -webkit-linear-gradient(170deg, rgb(255, 251, 0) 50%, rgb(119, 0, 255) 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#entrada .h1-4{
+    margin-top: -20px;
+    background: -webkit-linear-gradient(180deg, rgb(255, 251, 0) 50%, rgb(119, 0, 255) 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#entrada .h1-5{
+    margin-top: -20px;
+    background: -webkit-linear-gradient(180deg, rgb(255, 251, 0) 50%, rgb(119, 0, 255) 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#entrada h1{
+    text-align: center;
+    font-size: 100px;
+}
+
+/*Sobre*/
+#sobre{
+    background-color: rgb(119, 0, 255);
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+    padding: 20px;
+    color: rgb(255, 251, 0);
+}
+
+#ganso{
+    position: relative;
+    margin-right: 500px;
+    transition: rotate 1s, right 1s;
+    rotate: 360deg;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+#sobre aside{
+    float: left;
+}
+
+#sobre h3{
+    margin-top: 20px;
+}
+
+#sobre a{
+    color: rgb(255, 251, 0);
+}
+
+/*formacao*/
+#formacao{
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 210px;
+    background-color: rgb(255, 251, 0);
+    color: rgb(119, 0, 255);
+    padding: 20px;
+}
+
+.fiap{
+    position: relative;
+    left: 500px;
+    transition: rotate 1s, left 1s;
+    rotate: 360deg;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+#formacao h3{
+    margin-bottom: -50px;
+}
+
+#formacao aside{
+    float: right;
+}
+
+#formacao div {
+    margin-top: 120px;
+}
+
+/*Curso*/
+#curso{
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(119, 0, 255);
+    color: rgb(255, 251, 0) ;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#curso h3{
+    margin-bottom: -50px;
+}
+
+#curso aside{
+    float: right;
+}
+
+#curso div {
+    margin-top: 120px;
+}
+
+/*Projetos*/
+#projetos{
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    background-color: rgb(255, 251, 0);
+    color: rgb(119, 0, 255);
+    padding: 20px;
+}
+
+#projetos .CM iframe{
+    height: 700px;
+    width: 800px;
+    border-radius: 15px;
+}
+
+#projetos .adivinha iframe{
+    height: 700px;
+    width: 800px;
+    border-radius: 15px;
+}
+
+/*Footer*/
+footer{
+    background-color: rgb(65, 1, 138);
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+}
+
+footer p{
+    margin-right: 100px;
+}
+
+footer a i{
+    color: white;
+    margin-top: 15px;
+    margin-left: 35px;
+    font-size: 40px;
+}
+
+
+
+
+
